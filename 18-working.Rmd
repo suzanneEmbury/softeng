@@ -48,7 +48,7 @@ For each release, you must describe:
 
 1. The sub-features that will be delivered in the release.
 1. The target audience for the release (which group of users the new functionality will be released to)
-1. The existing game elements that can potentially be used to support some aspects of the sub-features to be delivered, and how they will need to be adapted.
+1. The existing game elements that can potentially be used to support some aspects of the sub-features to be delivered, and how they will need to be adapted.  This should focus on server classes, rather than client classes.
 
 The releases must be numbered and presented in the order in which they should be delivered.  This order should take into account dependencies between the sub-features.  For example, the release containing our new quest should come after the release that delivers the new reward item (for obvious reasons - we can't release the quest if the reward item does not yet exist in the game).
 
