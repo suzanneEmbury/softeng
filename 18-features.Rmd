@@ -184,20 +184,20 @@ An example of a commit message that follows the format we want you to use is:
 
 When asked, Joshua will now list the ingredients he needs for making the new spy glass item.  This was trickier than it looked, because Joshua was already using all the available conversation states.  I added a new state (QUESTION_4) to make it work.```
 
-Note the phrasing of the first line, as a sentence in the imperative that completes the sentence “When applied, this commit will...”.
+Note the phrasing of the first line, as a sentence in the imperative that completes the sentence “When applied, this commit will...” and that describes the functionality added in the commit.  The commit message should not describe how you are feeling, or whether you believe the commit fixes your problem, or what Git operation you think you are doing when you make the commit.
 
-For a full list of the rules to follow in writing commit messages in this form, see the resources under week 7.
+For a full list of the rules to follow in writing commit messages in this form, see the resources on Blackboard under week 7.
 
 ::: {.rmdcaution}
 
 (ref:cautionbox)
-Please make sure you set the `user.name` and `user.email` variables on all machines you intend to commit from.  Your email needs to you `firstname.lastname@student.manchester.ac.uk` address.
+Please make sure you set the `user.name` and `user.email` variables on all machines you intend to commit from, so that we can recognise them as coming from you.  Your email needs to match the e-mail address associated with your account on our GitLab server.  By default, this will be your university e-mail address, following the usual `firstname.lastname@student.manchester.ac.uk` format.
 
 This is set using `git config`, as described on the School wiki:
 
 [wiki.cs.manchester.ac.uk/index.php/Gitlab/Git_Setup](https://wiki.cs.manchester.ac.uk/index.php/Gitlab/Git_Setup)
 
-**Commits made from other accounts will NOT be considered to be part of your team's submission for the exercise!**
+**Commits made from other accounts will NOT be considered to be part of your team's submission for the exercise!  In particular, you should not ask your team mates to commit work for you, as this will be counted as plagiarism.**
 :::
 
 
