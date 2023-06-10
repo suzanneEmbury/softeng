@@ -1,7 +1,7 @@
-# Team Coursework 2 {#working}
+# Team Coursework 2 {#features}
 Working with Features
 
-## Overview {#ovirew}
+## Overview {#overview}
 
 In this second exercise using the Stendhal code base, you and your team are again presented with a number of issues recorded in your GitLab issue tracker.  This time, however, the issues describe new features rather than bugs.  That is, they describe extensions to the Stendhal game, rather than corrections to the implementation that bring it back into line with the way the game's owners believe it should behave.
 
